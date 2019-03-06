@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rundeck.webhook.plugin.RDNotificationPluginTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-03-05T14:22:56" hostname="NOTE-CPINO" time="0.812">
+  <properties/>
+  <testcase name="testGet" classname="com.rundeck.webhook.plugin.RDNotificationPluginTest" time="0.652"/>
+  <testcase name="testPut" classname="com.rundeck.webhook.plugin.RDNotificationPluginTest" time="0.07"/>
+  <testcase name="testPatch" classname="com.rundeck.webhook.plugin.RDNotificationPluginTest" time="0.038"/>
+  <testcase name="testPost" classname="com.rundeck.webhook.plugin.RDNotificationPluginTest" time="0.034"/>
+  <testcase name="testServer500ErrorCausesPluginPostNotificationToReturnFalse" classname="com.rundeck.webhook.plugin.RDNotificationPluginTest" time="0.008"/>
+  <testcase name="testGetIgnoresProvidedBody" classname="com.rundeck.webhook.plugin.RDNotificationPluginTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 05, 2019 11:22:56 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFORMACIÓN: MockWebServer[8425] starting to accept connections
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFORMACIÓN: MockWebServer[8425] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFORMACIÓN: MockWebServer[8425] done accepting connections: socket closed
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFORMACIÓN: MockWebServer[8427] starting to accept connections
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFORMACIÓN: MockWebServer[8427] received request: PUT / HTTP/1.1 and responded: HTTP/1.1 200 OK
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFORMACIÓN: MockWebServer[8427] done accepting connections: socket closed
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFORMACIÓN: MockWebServer[8429] starting to accept connections
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFORMACIÓN: MockWebServer[8429] received request: PATCH / HTTP/1.1 and responded: HTTP/1.1 200 OK
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFORMACIÓN: MockWebServer[8429] done accepting connections: socket closed
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFORMACIÓN: MockWebServer[8431] starting to accept connections
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFORMACIÓN: MockWebServer[8431] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFORMACIÓN: MockWebServer[8431] done accepting connections: socket closed
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFORMACIÓN: MockWebServer[8433] starting to accept connections
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFORMACIÓN: MockWebServer[8433] received request: GET / HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFORMACIÓN: MockWebServer[8433] done accepting connections: socket closed
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 execute
+INFORMACIÓN: MockWebServer[8435] starting to accept connections
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+INFORMACIÓN: MockWebServer[8435] done accepting connections: socket closed
+mar 05, 2019 11:22:57 AM okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+INFORMACIÓN: MockWebServer[8435] received request: GET / HTTP/1.1 and responded: HTTP/1.1 200 OK
+]]></system-err>
+</testsuite>

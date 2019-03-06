@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Rundeck-Plugin-Classnames: com.rundeck.webhook.plugin.RDNotificationPl
+ ugin
+Rundeck-Plugin-File-Version: 1.0
+Rundeck-Plugin-Author: Cristian Pino
+Rundeck-Plugin-Version: 1.2
+Rundeck-Plugin-Archive: true
+

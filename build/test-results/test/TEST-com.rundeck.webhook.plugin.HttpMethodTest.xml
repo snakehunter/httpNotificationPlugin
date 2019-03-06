@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rundeck.webhook.plugin.HttpMethodTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-05T14:22:56" hostname="NOTE-CPINO" time="0.003">
+  <properties/>
+  <testcase name="testIsAllowBody" classname="com.rundeck.webhook.plugin.HttpMethodTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
