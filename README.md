@@ -27,4 +27,4 @@ The only required configuration settings are:
 - `URL Target of http request`: Url target of http request.
 
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.PNG)
